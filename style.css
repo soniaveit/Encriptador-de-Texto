@@ -1,0 +1,109 @@
+
+html{
+    /*background: #491b7e;*/
+    background: #1a0231;
+}
+
+body{
+    font-family: "Lilita One", sans-serif;
+}
+
+header {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.imagen{
+    float: center;
+}
+
+.imagen img{
+    width: 20%;
+}
+
+h1{
+    color: #000000;
+    font-size: 50px;
+    text-shadow: 0 0 10px #b36cc9, 0 0 40px #b36cc9, 0 0 80px #b36cc9;
+}
+
+.caja-main{
+    /*width: 940px;
+    position: relative;
+    margin: 0 auto;*/
+    width: 100%;
+    margin: 1em;
+    text-align: center;
+    height: 100%;
+}
+
+.caja-main li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: 100%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #b36cc9, 0 0 40px #b36cc9, 0 0 80px #b36cc9;
+}
+
+p{
+    color: #e1aff0;
+    font-size: 20px;
+}
+
+.texto-usuario, .texto-encriptado{
+    margin: 1em;
+    width: 90%;
+    resize: none;
+    
+}
+
+.texto-usuario textarea{
+    border: none;
+    height: 80%;
+}
+
+.botones{
+    width: 100%;
+    margin: 1em;
+    text-align: center;
+}
+
+.boton{
+    /*background: #aca5ce;*/
+    background: #3d0d69;
+    width: 20%;
+    margin: 1em;
+    border-style: none;
+    box-shadow: -.2em -.2em .4em black;
+    border-radius: 5px;
+    font-size: 24px;
+    color: #a945c7;
+    height: 2em;
+}
+
+.boton:hover{
+    background: #1a0231;
+    box-shadow: 0 0 10px #b36cc9, 0 0 40px #b36cc9, 0 0 80px #b36cc9;
+    color: white;
+    transition: .5s;
+}
+
+.copyright{
+    font-size: 14px;
+    text-align: center;
+}
+
+
+

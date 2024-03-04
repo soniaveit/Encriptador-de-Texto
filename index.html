@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https: //fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <div class="caja">
+            <h1>Encriptador de texto</h1>
+            <div class="imagen">
+                <img src="imagenes/encriptar.png">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="caja-main">
+            <nav>
+                <ul>
+                    <li>
+                        <p>Texto a encriptar</p>
+                        <textarea rows="5" class="texto-usuario" id="idTxtUsuario" placeholder="Escriba aquí el texto en minúscula y sin acentos" required></textarea>
+                    </li>
+                    <li>
+                        <p>Texto encriptado</p>
+                        <textarea rows="5" class="texto-encriptado" id="texto_encriptado" placeholder="Aquí verá el resultado" disabled></textarea>                    
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="botones">
+            <button class="boton" id="codificar" onclick="btn_Encriptar_clic()">Codificar</button>
+            <button class="boton" id="decodificar" onclick="btn_DesEncriptar_clic()">Decodificar</button>
+            <button class="boton" id="copiar" onclick="copiar()">Copiar</button>
+        </div>
+    </main>
+    <footer>
+        <p class="copyright">&copy Copyright Encriptador by soniaveit - 2024</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
