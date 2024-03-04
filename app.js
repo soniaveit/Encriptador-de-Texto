@@ -84,8 +84,8 @@ function copiar(){
 }
 
 function borrarTexto() {
-    document.getElementById("idTxtUsuario").value = "";
-    document.getElementById("texto_encriptado").value = "";
+    document.getElementById("idTxtUsuario").innerHTML = "";
+    document.getElementById("texto_encriptado").innerHTML = "";
     return;
 }
 
